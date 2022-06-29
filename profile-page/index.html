@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>My Portofolio</title>
+</head>
+<body>
+    <header>
+        <h1>Dimas Prasetyo</h1>
+        <nav>
+            <ul>
+                <li><a href="#card-1">Skills</a></li>
+                <li><a href="#flex-1">Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Me -->
+        <article class="main-article">
+            <div class="flex-container-me" id="flex-container-me">
+                <div class="flex-col" id="content-col-1" data-aos="fade-up" data-aos-delay="300">
+                    <img src="img/profile.svg" alt="Profile" width="300" height="300" id="img" class="img1">
+                    <div id="content-article">
+                        <p>Nama saya Dimas Prasetyo<br>saya lahir di depok dan menetap sampai saat ini, saya bersekolah di<br> SMK Citra Negara dan menekuni jurusan Rekayasa Perangkat Lunak</p>
+                    </div>
+                </div>
+                <div class="flex-col" id="content-col-2" data-aos="fade-up" data-aos-delay="500">
+                    <img src="img/learn.svg" alt="learn" width="300" height="300" id="img" class="img-2">
+                    <div id="content-article">
+                        <p>Selama ini saya belajar otodidak web development bukan hanya dari sekolah namun juga dari Youtube. Seperti pada channel <q>WPU</q>, <q>PZN</q>, <q>Kelas Terbuka</q>, dan masih banyak lagi.</p>
+                    </div>
+                </div>
+                <div class="flex-col" id="content-col-3" data-aos="fade-up" data-aos-delay="700">
+                    <div id="content-article">
+                        <h4>Dan saya sangat berterimaksih kepada Dicoding dan juga dengan BAPAREKRAF yang telah memberikan saya kesempatan beasiswa untuk belajar Dasar Pemrograman</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills -->
+            <div class="flex-container-skills">
+                
+                <div class="flex-row" id="card-1" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800">
+                    <img src="img/html.png" alt="" width="100">
+                    <div id="content-article">
+                        HTML sudah menjadi keharusan untuk mempelajari nya, dan sampai saat ini saya masih memperdalam nya sebagai fondasi utama dalam membuat website
+                    </div>
+                </div>
+                
+                <div class="flex-row" id="card-2" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="800">
+                    <img src="img/css.png" alt="" width="100">
+                    <div id="content-article">
+                        Saat ini saya masih terus memperdalami CSS yang menurut saya adalah hal yang sangat penting untuk kedepannya, walaupun sekarang sudah ada Bootstrap, Tailwindcss dan sebagainya.
+                    </div>
+                </div>
+                
+                <div class="flex-row" id="card-3" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="800">
+                    <img src="img/js.png" alt="" width="100">
+                    <div id="content-article">
+                        Saya sangat suka dengan JavaScript yang membuat website lebih interaktif. Rencana nya saya akan memfokuskan diri untuk belajar bahasa ini hingga menguasai Framework React dan Vue 
+                    </div>
+                </div>
+                
+                <div class="flex-row" id="card-4" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800">
+                    <img src="img/php.png" alt="" width="100">
+                    <div id="content-article">
+                        Saya mempelajari bahasa php belum lama ini sekitar 4 bulan untuk dapat mengerjakan Ujian Kelulusan sekolah dengan menggunakan Framework Laravel
+                    </div>
+                </div>
+                
+                <div class="flex-row" id="card-5" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="800">
+                    <img src="img/python.png" alt="" width="100" id="python">
+                    <div id="content-article">
+                        Saya sedikit mempelajari Python dan saya suka dengan bahasa ini karna kemudahan nya, tapi untuk saat ini saya masih belum ingin memfokuskan pada bahasa ini
+                    </div>
+                </div>
+                
+                <div class="flex-row" id="card-6" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="800">
+                    <img src="img/laravel.png" alt="" width="100">
+                    <div id="content-article">
+                        Saya masih memperdalam Framework Laravel yang sebelumnya saya gunakan untuk Ujian Kelulusan sekolah, dan semenjak saat itu saya sangat suka dengan Framework ini 
+                    </div>
+                </div>
+                
+                <div class="flex-row" id="card-7" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800">
+                    <img src="img/bootstrap.svg" alt="" width="100">
+                    <div id="content-article">
+                        Bootstrap adalah Framework UI yang pertama kali saya pelajari dan sampai sekarang terkadang masih saya gunakan
+                    </div>
+                </div>
+                
+                <div class="flex-row" id="card-8" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="800">
+                    <img src="img/tailwind.png" alt="" width="100" id="tailwind">
+                    <div id="content-article">
+                        TailwindCSS adalah Framework UI yang saya sering gunakan pada saat ini daripada Bootstrap dikarenakan kemudahan dalam mmengingat dan membaca dokumentasi nya
+                    </div>
+                </div>
+                
+                <div class="flex-row" id="card-9" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="800">
+                    <img src="img/figma.png" alt="" width="70">
+                    <div id="content-article">
+                        Saya masih mempelajari lebih jauh penggunaan figma, karena masih banyak sekali yang belum saya tahu tentang figma
+                    </div>
+                </div>
+            
+            </div>
+
+            <!-- Contact -->
+            <div class="flex-container-contact" id="contact">
+                
+                <div class="contact-item">
+                    <a href="https://www.instagram.com/dp_ras/?hl=id">
+                        <img src="img/ig.png" alt="IG" width="50">
+                    </a>
+                </div>
+                
+                <div class="contact-item">
+                    <a href="https://github.com/DSQL-MONGKEY">
+                        <img src="img/github.png" alt="" width="50">
+                    </a>
+                </div>
+            
+            </div>
+        </article>  
+        <aside class="aside">
+            <div class="aside-content">
+                <img src="img/me.jpg" alt="" id="img-aside" width="100">
+                <article>
+                    <p>Nama : Dimas Prasetyo</p>
+                    <p>Umur : 17 tahun - waktu yang ditentukan</p>
+                    <p>Status : Pelajar</p>
+                    <p>Sekolah : SMK Citra Negara</p>
+                    <p>Alamat : Depok, Jawa Barat</p>
+                </article>
+            </div>
+        </aside>
+        <div class="scroll-top">
+            <i class="fa-solid fa-angles-up" id="scroll-icon"></i>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>
+            &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Dimas Prasetyo <br> Depok, West Java
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          once: true,
+      });
+    </script>
+</body>
+</html>
